@@ -28,6 +28,8 @@ router.post('/', async (req, res) => {
         description
     });
     await task.save();
+    res.header("Access-Control-Allow-Origin", "*");
+    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
     res.json({
         status: 'OK',
         data: task
