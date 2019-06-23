@@ -1,10 +1,10 @@
-# mern-stack-tasks
+# MERN tasks
 
-Application builded to train some MERN stack :D
+Application built to train some MERN stack :D
 
-Tech used:
-  -Node
-  -Express
-  -MongoDB (MongoAtlas)
-  -React
-  -Materialize
+Used:
+- Node
+- Express
+- MongoDB (MongoAtlas)
+- React
+- Materialize
